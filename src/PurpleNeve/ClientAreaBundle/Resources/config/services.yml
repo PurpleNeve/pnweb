@@ -1,0 +1,7 @@
+parameters:
+#    client_area.example.class: PurpleNeve\ClientAreaBundle\Example
+
+services:
+#    client_area.example:
+#        class: %client_area.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,8 @@
+client_area:
+    resource: "@ClientAreaBundle/Resources/config/routing.yml"
+    prefix:   /client/
+
+frontend:
+    resource: "@FrontendBundle/Resources/config/routing.yml"
+    prefix:   /
+
