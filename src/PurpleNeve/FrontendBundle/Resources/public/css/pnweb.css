@@ -50,9 +50,12 @@ header img {
 
 .dropdown-menu.client-signin {
     background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
-    
+    border-top: 0;
     padding: 8px;
     width: 280px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
 }
 
 .copyright,
