@@ -95,3 +95,8 @@ footer {
     border: 0;
     color: #fff;
 }
+
+.small,
+.small a {
+    font-size: 11px;
+}
