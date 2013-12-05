@@ -32,8 +32,8 @@ header img {
 }
 
 .navbar-nav li a:hover {
-    background: transport;
-    color: #493058;
+    background: #6c3f83;
+    color: #fff;
 }
 
 .poweredby {
