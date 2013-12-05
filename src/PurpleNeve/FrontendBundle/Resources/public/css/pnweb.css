@@ -30,7 +30,7 @@ header img {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
-    margin-left: 16px;
+    padding: 0 14px;
 }
 
 .navbar-nav li a:hover {
