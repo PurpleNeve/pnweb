@@ -85,3 +85,12 @@ footer {
     border: 0;
     color: #fff;
 }
+
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active, 
+.btn-default.active {
+    background-color: #432354;
+    border: 0;
+    color: #fff;
+}
