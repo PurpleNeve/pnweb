@@ -49,7 +49,8 @@ header img {
 }
 
 .dropdown-menu.client-signin {
-    background: #999;
+    background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
+    
     padding: 8px;
     width: 280px;
 }
