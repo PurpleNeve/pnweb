@@ -14,15 +14,15 @@ header img {
 }
 
 .poweredby {
-    color: #999;
+    color: #777;
     font-family: 'Roboto Slab', 'Open Sans', 'Arial';
-    font-size: 16px;
+    font-size: 21px;
     line-height: 60px;
 }
 
 footer img {
     height: auto;
-    width: 35px;
+    width: 50px;
 }
 
 footer {
