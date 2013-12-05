@@ -14,10 +14,11 @@ header img {
 }
 
 footer {
-    color: #666;
+    color: #333;
     font-family: 'Roboto Slab', 'Open Sans', 'Arial';
     font-size: 16px;
     line-height: 50px;
+    height: 70px;
 }
 
 footer img {
