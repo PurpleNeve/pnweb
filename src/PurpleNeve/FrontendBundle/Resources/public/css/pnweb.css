@@ -19,6 +19,7 @@ header img {
     width: 180px;
 }
 
+.navbar-nav li a:focus,
 .navbar-nav li a {
     color: #fff;
     font-size: 16px;
@@ -29,6 +30,7 @@ header img {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+    margin-left: 16px;
 }
 
 .navbar-nav li a:hover {
