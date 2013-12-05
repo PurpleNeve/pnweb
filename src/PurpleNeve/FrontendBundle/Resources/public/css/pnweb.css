@@ -13,6 +13,11 @@ header img {
     width: 180px;
 }
 
+footer img {
+    height: auto;
+    width: 30px;
+}
+
 footer {
     background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
     position: fixed;
