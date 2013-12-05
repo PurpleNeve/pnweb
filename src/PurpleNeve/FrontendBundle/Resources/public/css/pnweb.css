@@ -7,3 +7,17 @@ header {
     width: 100%;
     z-index: 50;
 }
+
+header img {
+    height: auto;
+    width: 180px;
+}
+
+footer {
+    background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
