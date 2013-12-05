@@ -37,7 +37,15 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> client login</a>
                                 <div class="dropdown-menu client-signin">
-                                     sign in form
+                                     <form role="form" method="post" action="/client/auth">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" size="small" placeholder="Email Address" name="_username" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" size="small" placeholder="Password" name="_password" />
+                                        </div>
+                                        <button type="submit" class="btn btn-default">Login</button>
+                                     </form>
                                 </div>
                             </li>
                         </ul>
