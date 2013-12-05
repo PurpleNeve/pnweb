@@ -1,7 +1,10 @@
 {% extends '::base.html.twig' %}
+{% block css %}
+<link href="{{ asset('bundles/frontend/css/pnweb.css') }}" rel="stylesheet">
+{% endblock %}
+
 {% block body %}
 <h1>Thank you for visiting</h1>
 <h2>We are currently under construction</h2>
 <p>Please excuse our mess, we will be launching our new website tonight at midnight.  Until then, please be patient and excuse the mess!</p>
 {% endblock %}
-
