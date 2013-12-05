@@ -50,6 +50,8 @@ header img {
 
 .dropdown-menu.client-signin {
     background: #999;
+    padding: 8px;
+    width: 280px;
 }
 
 .copyright,
@@ -72,4 +74,14 @@ footer {
     bottom: 0;
     width: 100%;
     height: 60px;
+}
+
+/**
+* Button overrides
+*/
+
+.btn-default {
+    background: #6c3f83;
+    border: 0;
+    color: #fff;
 }
