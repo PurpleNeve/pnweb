@@ -19,6 +19,22 @@ header img {
     width: 180px;
 }
 
+.navbar-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 20px;
+    padding: 0 4px;
+    height: 20px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.navbar-nav li a:hover {
+    background: transport;
+    color: #493058;
+}
+
 .poweredby {
     color: #777;
     font-family: 'Roboto Slab', 'Open Sans', 'Arial';
