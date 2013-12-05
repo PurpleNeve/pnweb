@@ -27,10 +27,10 @@ header img {
     line-height: 60px;
     padding: 0 4px;
     height: 60px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-    padding: 0 14px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    padding: 0 24px;
 }
 
 .navbar-nav li a:hover {
