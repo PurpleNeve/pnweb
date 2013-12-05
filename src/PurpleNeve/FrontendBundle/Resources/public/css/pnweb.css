@@ -46,6 +46,10 @@ header img {
     color: #fff;
 }
 
+dropdown-menu.client-signin {
+    background: #999;
+}
+
 .copyright,
 .poweredby {
     color: #777;
