@@ -27,9 +27,9 @@ header img {
     line-height: 60px;
     padding: 0 4px;
     height: 60px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
     padding: 0 24px;
 }
 
@@ -38,6 +38,7 @@ header img {
     color: #fff;
 }
 
+copyright,
 .poweredby {
     color: #777;
     font-family: 'Roboto Slab', 'Open Sans', 'Arial';
