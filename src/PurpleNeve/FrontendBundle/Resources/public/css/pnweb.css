@@ -21,10 +21,11 @@ header img {
 
 .navbar-nav li a {
     color: #fff;
+    font-size: 16px;
     text-transform: uppercase;
-    line-height: 20px;
+    line-height: 60px;
     padding: 0 4px;
-    height: 20px;
+    height: 60px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
