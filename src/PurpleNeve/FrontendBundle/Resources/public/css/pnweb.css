@@ -26,8 +26,10 @@ header img {
    background: #6c3f83; 
 }
 
+.navbar-nav li a:active,
 .navbar-nav li a:focus,
 .navbar-nav li a {
+    background: none;
     border: 0;
     color: #fff;
     font-size: 16px;
