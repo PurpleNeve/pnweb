@@ -18,14 +18,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="row header-logo">
-                <img src="{% block logo %}{{ asset('bundles/frontend/images/logo.png') }}{% endblock %}" alt="{% block logotext %}Logo place holder{% endblock %}" />
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                {% block body %}Body Placeholder{% endblock %}
-                </div>
-            </div>
+            {% block body %}Body Placeholder{% endblock %}
         </div>
     </body>
 </html>

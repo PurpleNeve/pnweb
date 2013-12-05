@@ -1,3 +1,8 @@
 .container {
     width: 100%;
 }
+
+header {
+    background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
+    height: 150px;
+}
