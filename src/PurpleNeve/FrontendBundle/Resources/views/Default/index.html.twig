@@ -12,40 +12,40 @@
 {% endblock %}
 
 {% block body %}
+<div class="sequence-slider">
+    <div id="sequence"><i class="sequence-prev fa fa-angle-left"></i> <i class="sequence-next fa fa-angle-right"></i>
+        <ul class="sequence-canvas">
+            <li>
+                <h2 class="title">Test <span>Slide</span></h2>
+                <p class="subtitle">Slide title text<br />
+                  Multi-lined text</p>
+                <img class="main-image" src="{{ asset('bundles/frontend/images/slide1.jpg') }}" alt="Image" /> <a href="#" class="more-info">Learn more</a>
+                <div class="tr-bg"></div>
+            </li>
+            <li>
+                <h2 class="title">Test <span>Slide</span></h2>
+                <p class="subtitle">Slide title text<br />
+                  Multi-lined text</p>
+                <img class="main-image" src="{{ asset('bundles/frontend/images/slide2.jpg') }}" alt="Image" /> <a href="#" class="more-info">Learn more</a>
+                <div class="tr-bg"></div>
+            </li>
+            <li>
+                <h2 class="title">Test <span>Slide</span></h2>
+                <p class="subtitle">Slide title text<br />
+                  Multi-lined text</p>
+                <img class="main-image" src="{{ asset('bundles/frontend/images/slide3.jpg') }}" alt="Image" /> <a href="#" class="more-info">Learn more</a>
+                <div class="tr-bg"></div>
+            </li>
+        </ul>
+        <ul class="sequence-pagination">
+            <li><a href="#"><i class="fa fa-circle"></i></a></li>
+            <li><a href="#"><i class="fa fa-circle"></i></a></li>
+            <li><a href="#"><i class="fa fa-circle"></i></a></li>
+        </ul>
+    </div>
+</div>
 <div class="row">
     <div class="col-md-12">
-        <div class="sequence-slider">
-            <div id="sequence"><i class="sequence-prev fa fa-angle-left"></i> <i class="sequence-next fa fa-angle-right"></i>
-                <ul class="sequence-canvas">
-                    <li>
-                        <h2 class="title">Test <span>Slide</span></h2>
-                        <p class="subtitle">Slide title text<br />
-                          Multi-lined text</p>
-                        <img class="main-image" src="{{ asset('bundles/frontend/images/slide1.jpg') }}" alt="Image" /> <a href="#" class="more-info">Learn more</a>
-                        <div class="tr-bg"></div>
-                    </li>
-                    <li>
-                        <h2 class="title">Test <span>Slide</span></h2>
-                        <p class="subtitle">Slide title text<br />
-                          Multi-lined text</p>
-                        <img class="main-image" src="{{ asset('bundles/frontend/images/slide2.jpg') }}" alt="Image" /> <a href="#" class="more-info">Learn more</a>
-                        <div class="tr-bg"></div>
-                    </li>
-                    <li>
-                        <h2 class="title">Test <span>Slide</span></h2>
-                        <p class="subtitle">Slide title text<br />
-                          Multi-lined text</p>
-                        <img class="main-image" src="{{ asset('bundles/frontend/images/slide3.jpg') }}" alt="Image" /> <a href="#" class="more-info">Learn more</a>
-                        <div class="tr-bg"></div>
-                    </li>
-                </ul>
-                <ul class="sequence-pagination">
-                    <li><a href="#"><i class="fa fa-circle"></i></a></li>
-                    <li><a href="#"><i class="fa fa-circle"></i></a></li>
-                    <li><a href="#"><i class="fa fa-circle"></i></a></li>
-                </ul>
-                </div>
-            </div>
     </div>
 </div>
 {% endblock %}
