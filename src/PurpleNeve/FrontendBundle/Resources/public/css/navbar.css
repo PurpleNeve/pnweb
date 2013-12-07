@@ -29,12 +29,7 @@
     color: #fff;
 }
 
-.dropdown-menu.client-signin {
-    background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
-    border-top: 0;
-    padding: 8px;
-    width: 280px;
-}
+
 
 .navbar-nav > li > a i {
     margin-right: -10px;
@@ -96,4 +91,11 @@
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
+}
+
+.dropdown-menu.client-signin {
+    background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
+    border-top: 0;
+    padding: 8px;
+    width: 280px;
 }
