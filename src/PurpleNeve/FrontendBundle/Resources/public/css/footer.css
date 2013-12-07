@@ -16,7 +16,11 @@ footer {
     box-shadow: 0 0 5px rgba(0 , 0, 0, 1);
 }
 
-#map-canvas {    
+
+p.copyright {
+    float: left;
+    line-height: 50px;
+    margin-bottom: 0;
 }
 
 #map-canvas div.gmnoprint, 
