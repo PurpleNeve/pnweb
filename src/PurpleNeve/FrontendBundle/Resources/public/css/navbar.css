@@ -76,6 +76,10 @@
     background: rgb(238, 238, 238, 0.5);
 }
 
+.nav > li > a i {
+    margin-left: 10px;
+}
+
 .nav > li > a:hover i {
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
