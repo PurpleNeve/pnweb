@@ -1,0 +1,21 @@
+.copyright,
+.poweredby {
+    color: #777;
+    font-family: 'Roboto Slab', 'Open Sans', 'Arial';
+    font-size: 21px;
+    line-height: 60px;
+}
+
+footer img {
+    height: auto;
+    width: 50px;
+}
+
+footer {
+    background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}

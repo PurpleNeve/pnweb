@@ -1,0 +1,63 @@
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus {
+   color: #fff;
+   background: #6c3f83; 
+}
+
+.navbar-nav li > a:active,
+.navbar-nav li > a:focus,
+.navbar-nav li > a {
+    background: none;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 60px;
+    padding: 0 4px;
+    height: 60px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    padding: 0 24px;
+}
+
+.navbar-nav li > a:hover {
+    background: #6c3f83;
+    color: #fff;
+}
+
+.dropdown-menu.client-signin {
+    background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
+    border-top: 0;
+    padding: 8px;
+    width: 280px;
+}
+
+.navbar .nav > li > a i {
+    margin-right: -10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255,255,255,0.75);
+    display: inline-block;
+}
+
+.navbar .nav > li > a:hover i, .navbar .nav > li.active > a i {
+    background: rgba(0,0,0,0.25);
+    color: #FFF;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    background: rgba(0,0,0,0.1);
+    color: #FFF;
+}
