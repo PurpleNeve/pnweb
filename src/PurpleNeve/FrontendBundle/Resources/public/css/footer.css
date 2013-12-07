@@ -4,6 +4,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    color: #fff;
 }
 
 #map-canvas {
@@ -22,7 +23,7 @@ footer {
 }
 
 address p span {
-    color: #bcbbbb;
+    color: #6c3f83;
     display: inline-block;
     font: 14px/30px 'Roboto Slab', Arial, Helvetica, sans-serif;
     min-width: 100px;
