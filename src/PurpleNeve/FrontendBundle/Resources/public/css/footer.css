@@ -68,3 +68,7 @@ address p.address i {
 .social-media a i:hover {
     background: #432354;
 }
+
+.copy-cont {
+    margin-top: 20px;
+}
