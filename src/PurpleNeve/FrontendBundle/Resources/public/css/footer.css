@@ -74,6 +74,9 @@ address p.address i {
 
 .social-media a i:hover {
     background: #432354;
+}
+
+.social-media a:hover i {
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
