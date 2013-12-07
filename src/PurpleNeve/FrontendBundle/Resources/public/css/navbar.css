@@ -66,7 +66,7 @@
     color: #FFF;
 }*/
 
-.navbar-nav > li > a:hover i {
+.nav > li > a:hover i {
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
