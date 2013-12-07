@@ -20,3 +20,11 @@ footer {
 #map-canvas div div + div a img {
     display: none
 }
+
+address p span {
+    color: #bcbbbb;
+    display: inline-block;
+    font: 14px/30px 'Roboto Slab', Arial, Helvetica, sans-serif;
+    min-width: 100px;
+    text-transform: uppercase;
+}
