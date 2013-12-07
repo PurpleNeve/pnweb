@@ -1,15 +1,22 @@
-.copyright,
-.poweredby {
-    color: #777;
-    font-family: 'Roboto Slab', 'Open Sans', 'Arial';
-    font-size: 21px;
-    line-height: 60px;
-}
-
 footer {
     background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+#map-canvas {
+    height: 390px;
+    margin-bottom: 40px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#map-canvas {    
+}
+
+#map-canvas div.gmnoprint, 
+#map-canvas div div + div a img {
+    display: none
 }
