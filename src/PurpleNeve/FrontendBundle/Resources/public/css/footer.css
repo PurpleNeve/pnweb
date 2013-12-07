@@ -1,10 +1,12 @@
 footer {
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,.2);
     background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: #fff;
+    padding: 30px 0;
 }
 
 #map-canvas {

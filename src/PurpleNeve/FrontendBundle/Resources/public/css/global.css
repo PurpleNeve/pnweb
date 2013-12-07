@@ -69,10 +69,3 @@ a:focus,
 a {
     color: #fff;
 }
-
-a:hover {
-    text-decoration: none;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    transition: all 1s;
-}
