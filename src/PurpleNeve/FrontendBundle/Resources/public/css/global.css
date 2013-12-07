@@ -16,6 +16,23 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, p span {
     color: #6c3f83;
 }
 
+.lead {
+    margin-bottom: 20px;
+    color: #bcbbbb;
+}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-style: dashed none none;
+    border-width: 1px 0 medium;
+    margin: 0;
+    padding-bottom: 19px;
+}
+
 .btn,
 .navbar-brand, 
 .nav > li > a, 
