@@ -24,6 +24,12 @@ p.copyright {
     margin-bottom: 0;
 }
 
+p.copyright img {
+    height: auto;
+    width: 35px;
+    border: 0;
+}
+
 #map-canvas div.gmnoprint, 
 #map-canvas div div + div a img {
     display: none
