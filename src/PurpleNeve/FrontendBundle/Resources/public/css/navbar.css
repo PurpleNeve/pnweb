@@ -70,6 +70,12 @@
     padding: 10px 0 0 0;
 }
 
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav > li > a:active {
+    background: rgb(238, 238, 238, 0.5);
+}
+
 .nav > li > a:hover i {
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
