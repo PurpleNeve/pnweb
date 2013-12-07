@@ -70,6 +70,9 @@
     padding: 10px 0 0 0;
 }
 
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus,
 .nav > li > a:hover,
 .nav > li > a:focus,
 .nav > li > a:active {
