@@ -6,7 +6,7 @@ body {
 
 header {
     background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
-    box-shadow: inset 0px 2px 5px rgba(0,0,0,.2);
+    box-shadow: 0px 2px 5px rgba(0,0,0,.2);
     position: fixed;
     left: 0;
     top: 0;
