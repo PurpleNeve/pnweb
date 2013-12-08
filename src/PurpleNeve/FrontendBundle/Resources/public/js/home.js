@@ -1,13 +1,15 @@
 $(document).ready(function () {
-    var options = {
-        nextButton: true,
-        prevButton: true,
-        pagination: true,
-        animateStartingFrameIn: true,
-        autoPlay: true,
-        autoPlayDelay: 3000,
-        preloader: true,
-    };
-
-    var mySequence = $("#sequence").sequence(options).data("sequence");
+    $('#home-slider.flexslider').flexslider({                        
+        animation: "swing",
+        direction: "vertical", 
+        slideshow: true,
+        slideshowSpeed: 3500,
+        animationDuration: 1000,
+        directionNav: false,
+        controlNav: true,
+        smootheHeight:true,
+        after: function(slider) {
+            slider.removeClass('loading');
+        }    
+    });
 });

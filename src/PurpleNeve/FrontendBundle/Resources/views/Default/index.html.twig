@@ -6,39 +6,24 @@
 
 {% block javascript %}
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="bundles/frontend/js/jquery.sequence.min.js"></script>
+<script type="text/javascript" src="bundles/frontend/js/flexslider.js"></script>
 <script type="text/javascript" src="bundles/frontend/js/home.js"></script>
 <script type="text/javascript" src="bundles/frontend/js/footer.js"></script>
 {% endblock %}
 
 {% block body %}
-<div class="sequence-slider">
-    <div id="sequence"><i class="sequence-prev fa fa-angle-left"></i> <i class="sequence-next fa fa-angle-right"></i>
-        <ul class="sequence-canvas">
-            <li>
-                <h2 class="title">Complex Made <span>Simple</span></h2>
-                <p class="subtitle">Business needs are complex while we offer simple solutions</p>
-                <img class="main-image" src="{{ asset('bundles/frontend/images/slide1.jpg') }}" alt="Complex problems, simple solutions" /> <a href="#" class="btn btn-default more-info">Learn more</a>
-                <div class="tr-bg"></div>
-            </li>
-            <li>
-                <h2 class="title">Test <span>Slide</span></h2>
-                <p class="subtitle">Slide title text multi-lined text</p>
-                <img class="main-image" src="{{ asset('bundles/frontend/images/slide2.jpg') }}" alt="Image" /> <a href="#" class="btn btn-default more more-info">Learn more</a>
-                <div class="tr-bg"></div>
-            </li>
-            <li>
-                <h2 class="title">Test <span>Slide</span></h2>
-                <p class="subtitle">Slide title text multi-lined text</p>
-                <img class="main-image" src="{{ asset('bundles/frontend/images/slide3.jpg') }}" alt="Image" /> <a href="#" class="btn btn-default more more-info">Learn more</a>
-                <div class="tr-bg"></div>
-            </li>
-        </ul>
-        <ul class="sequence-pagination">
-            <li><a href="#"><i class="fa fa-circle"></i></a></li>
-            <li><a href="#"><i class="fa fa-circle"></i></a></li>
-            <li><a href="#"><i class="fa fa-circle"></i></a></li>
-        </ul>
+<div class="home-slider">
+    <div class="home-text-wrapper">
+        <div class="home-logo-text">
+            <a href="#about">Discover purple+neve</a>
+        </div>       
+        <div id="home-slider" class="flexslider">            
+            <ul class="slides styled-list">
+                <li class="home-slide"><p class="home-slide-content">We are <span>Creative</span> Nerds</p></li>
+                <li class="home-slide"><p class="home-slide-content">We are <span>Crazy</span> Coders</p></li>
+                <li class="home-slide"><p class="home-slide-content">We <span>Love</span> Coffee</p></li>
+            </ul>
+        </div>
     </div>
 </div>
 <div class="container">
