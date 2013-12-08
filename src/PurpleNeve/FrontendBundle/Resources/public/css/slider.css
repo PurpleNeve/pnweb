@@ -254,6 +254,7 @@
 }
 .animate-in .subtitle {
     left: 50%;
+    top: 70%;
 }
 .animate-out .subtitle {
     left: 70%;
