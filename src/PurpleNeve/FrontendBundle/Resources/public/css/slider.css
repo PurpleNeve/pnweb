@@ -324,6 +324,7 @@
 }
 .title, .animate-in .title, .animate-out .title {
     width: 100%;
+    font-size: 34px;
     background: rgba(0,0,0,0.75);
     text-align: center;
     left: 0;
@@ -346,6 +347,7 @@
 }
 .title, .animate-in .title, .animate-out .title {
     width: 100%;
+    font-size: 24px;
     background: rgba(0,0,0,0.75);
     text-align: center;
     left: 0;
