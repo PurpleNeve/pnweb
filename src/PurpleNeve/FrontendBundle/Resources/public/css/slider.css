@@ -212,7 +212,7 @@
 .tr-bg {
     width: 0;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: transparent;
     opacity: 0;
     position: absolute;
     z-index: 1;
