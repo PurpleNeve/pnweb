@@ -112,7 +112,8 @@
     padding: 10px 15px;
     border-radius: 4px;
     background: rgba(0, 0, 0, 0.6);
-    color: #FFF;
+    font-size: 64px;
+    color: #fff;
     opacity: 0;
     overflow: hidden;
     position: absolute;
