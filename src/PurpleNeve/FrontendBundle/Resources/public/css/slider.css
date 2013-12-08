@@ -269,7 +269,7 @@ html[xmlns] .slides {
 }
 
 .home-slider {
-    display: block;
+    display: table;
     overflow: hidden;
     position: relative;
     width: 100%;
