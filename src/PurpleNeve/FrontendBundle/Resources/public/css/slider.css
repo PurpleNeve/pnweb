@@ -141,6 +141,7 @@
     margin-bottom: 0;
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
     font-size: 30px;
+    max-width: 40%;
     color: #fff;
     background: rgba(0, 0, 0, 0.7);
     text-transform: uppercase;
