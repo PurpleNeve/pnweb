@@ -139,8 +139,8 @@
 /* Sequence Content SubTitle */
 .subtitle {
     margin-bottom: 0;
-    height: 40px;
-    font: 300 18px/20px Roboto Condensed, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 30px;
     color: rgba(255,255,255,0.75);
     text-transform: uppercase;
     opacity: 0;
@@ -238,7 +238,7 @@
     left: 50%;
 }
 .animate-in .title {
-    left: 30%;
+    left: 5%;
     top: 10%;
 }
 .animate-out .title {
@@ -250,7 +250,7 @@
     left: 50%;
 }
 .animate-in .subtitle {
-    left: 60.5%;
+    left: 50%;
 }
 .animate-out .subtitle {
     left: 70%;
