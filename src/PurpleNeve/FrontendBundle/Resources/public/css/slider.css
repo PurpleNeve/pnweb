@@ -260,14 +260,16 @@ html[xmlns] .slides {
     background-size: 20px;
 }
 
-
-
 .testimonial-slider .flex-direction-nav li .flex-prev, .twitter-slider .flex-direction-nav li .flex-prev {
     left: 45%;
 }
 .testimonial-slider .flex-direction-nav li .flex-next, .twitter-slider .flex-direction-nav li .flex-next {
     right: 45%;
     left: auto;
+}
+
+#site-body {
+    height: 450px;
 }
 
 .home-text-wrapper {
