@@ -144,13 +144,11 @@
     font-size: 30px;
     max-width: 40%;
     color: #fff;
-    background: rgba(0, 0, 0, 0.7);
     text-transform: uppercase;
     opacity: 0;
     overflow: hidden;
     position: absolute;
     z-index: 50;
-    padding: 6px 20px;
     border-radius: 25px;
     transition-duration: 0.5s;
     -ms-transition-duration: 0.5s;
@@ -255,8 +253,8 @@
     left: 50%;
 }
 .animate-in .subtitle {
-    left: 50%;
-    top: 70%;
+    left: 5%;
+    top: 15%;
 }
 .animate-out .subtitle {
     left: 70%;
