@@ -237,7 +237,8 @@
     left: 50%;
 }
 .animate-in .title {
-    left: 60.5%;
+    left: 30%;
+    top: 10%;
 }
 .animate-out .title {
     left: 70%;
