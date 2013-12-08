@@ -268,10 +268,6 @@ html[xmlns] .slides {
     left: auto;
 }
 
-#site-body {
-    height: 450px;
-}
-
 .home-text-wrapper {
     display: table-cell;
     vertical-align: middle;
