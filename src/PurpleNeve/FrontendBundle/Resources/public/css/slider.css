@@ -269,6 +269,51 @@ html[xmlns] .slides {
     right: 45%;
     left: auto;
 }
+
+.home-text-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.home-logo, .home-logo-text {
+    margin: 30px 0 100px;
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+/* Move to media queries */
+.home-logo-text a {
+    font-size: 90px;
+}
+
+.home-fullscreenslider .home-logo, .home-fullscreenslider .home-logo-text {
+    margin: 60px 0 100px;
+    font-size: 80px;
+}
+.home-logo-text a {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 1;
+    padding: 5px 25px 0;
+    border: 5px solid;
+    color: inherit;
+}
+.home-logo-text.light a {
+    color: rgba(255,255,255,0.9);
+}
+.home-logo-text a:hover {
+    color: #ffffff;
+}
+
+/* End annotation for media queries */
+
 #home-slider .flex-control-nav {
     bottom: 0;
     top: auto;
