@@ -3,7 +3,7 @@ $(document).ready(function () {
     var nav_height = $('#site-header').height();
     var slider_height = window_height - nav_height;
 
-    $('#site-body').css({height: slider_height});
+    $('#site-body, .home-slider').css({height: slider_height});
 
     $('#home-slider.flexslider').flexslider({                        
         animation: "swing",
