@@ -140,6 +140,7 @@
 .subtitle {
     margin-bottom: 0;
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
     font-size: 30px;
     max-width: 40%;
     color: #fff;
