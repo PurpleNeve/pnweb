@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var window_height = $(window).height();
+    var window_height = $(document).height();
     var nav_height = $('#site-header').height();
     var slider_height = window_height - nav_height;
 
