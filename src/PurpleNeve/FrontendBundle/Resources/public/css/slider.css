@@ -16,7 +16,7 @@
     margin: 0;
     height: 100%;
     width: 100%;
-    padding-left: 15px;
+    padding: 0;
 }
 #sequence > .sequence-canvas > li {
     width: 100%;
