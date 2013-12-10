@@ -322,7 +322,8 @@ html[xmlns] .slides {
 }
 
 .home-slide .home-slide-content {
-    font-family: 'BebasNeueRegular', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
     font-size: 90px;
     text-transform: uppercase;
     position: relative;
