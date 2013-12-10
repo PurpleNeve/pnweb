@@ -268,6 +268,10 @@ html[xmlns] .slides {
     left: auto;
 }
 
+#site-body {
+    background: url('/bundles/frontend/images/slide1.jpg') no-repeat center;
+}
+
 .home-slider {
     display: table;
     overflow: hidden;
