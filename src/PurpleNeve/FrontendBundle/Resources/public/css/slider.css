@@ -269,6 +269,7 @@ html[xmlns] .slides {
 }
 
 #site-body {
+    margin-top: 50px;
     background: url('/bundles/frontend/images/slide1.jpg') no-repeat center;
 }
 
