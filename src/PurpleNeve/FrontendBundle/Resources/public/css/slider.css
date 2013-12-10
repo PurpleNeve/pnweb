@@ -283,12 +283,11 @@ html[xmlns] .slides {
 
 .home-text-wrapper {
     display: table-cell;
-    vertical-align: middle;
     margin: auto;
 }
 
 .home-logo, .home-logo-text {
-    margin: 30px 0 100px;
+    margin: 80px 0 100px;
     position: relative;
     display: block;
     text-align: center;
