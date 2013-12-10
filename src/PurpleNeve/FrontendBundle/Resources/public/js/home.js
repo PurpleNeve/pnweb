@@ -4,6 +4,12 @@ $(document).ready(function () {
     var slider_height = window_height - nav_height;
 
     $('#site-body, .home-slider').css({height: slider_height});
+    
+    $('#home-slider-logo').on('hover', function() {
+        $(this).src = 'bundles/frontend/images/neve.png';
+    }, function() {
+        $(this).src = 'bundles/frontend/images/neve_white.png'
+    });
 
     $('#home-slider.flexslider').flexslider({                        
         animation: "swing",
