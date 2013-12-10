@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     $('#site-body, .home-slider').css({height: slider_height});
     
-    $('#home-slider-logo').on('hover', function() {
+    $('#home-slider-logo').hover(function() {
         $(this).src = 'bundles/frontend/images/neve.png';
     }, function() {
         $(this).src = 'bundles/frontend/images/neve_white.png'
