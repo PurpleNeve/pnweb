@@ -6,8 +6,10 @@ $(document).ready(function () {
     $('#site-body, .home-slider').css({height: slider_height});
     
     $('#home-slider-logo').hover(function() {
+        console.log('this');
         $(this).src = 'bundles/frontend/images/neve.png';
     }, function() {
+        console.log('that');
         $(this).src = 'bundles/frontend/images/neve_white.png'
     });
 
