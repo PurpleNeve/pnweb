@@ -7,10 +7,10 @@ $(document).ready(function () {
     
     $('#home-slider-logo').hover(function() {
         console.log('this');
-        $(this).src = 'bundles/frontend/images/neve.png';
+        $(this).attr('src', 'bundles/frontend/images/neve.png');
     }, function() {
         console.log('that');
-        $(this).src = 'bundles/frontend/images/neve_white.png'
+        $(this).attr('src', 'bundles/frontend/images/neve_white.png');
     });
 
     $('#home-slider.flexslider').flexslider({                        
