@@ -299,6 +299,7 @@ html[xmlns] .slides {
     margin: 60px 0 100px;
     font-size: 80px;
 }
+
 .home-logo-text a {
     font-family: 'Roboto Slab', sans-serif;
     font-size: 60px;
@@ -311,10 +312,34 @@ html[xmlns] .slides {
     border: 5px solid;
     color: inherit;
 }
+
 .home-logo-text.light a {
     color: rgba(255,255,255,0.9);
 }
+
 .home-logo-text a:hover {
+    color: #ffffff;
+}
+
+.home-slide .home-slide-content {
+    font-family: 'BebasNeueRegular', sans-serif;
+    font-size: 90px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 1;
+}
+
+.home-parallax .home-slide-content {
+    padding: 55px 10px 50px;    
+    background: rgba(0, 0, 0, 0.3);
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);    
+    color: #ffffff;
+}
+
+.home-gradient .home-slide-content {
     color: #ffffff;
 }
 
