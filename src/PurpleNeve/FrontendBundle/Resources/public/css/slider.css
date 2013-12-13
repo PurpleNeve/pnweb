@@ -338,7 +338,7 @@ html[xmlns] .slides {
 
 .home-slide .home-slide-content {
     padding: 55px 10px 50px;    
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);    
     color: #ffffff;
