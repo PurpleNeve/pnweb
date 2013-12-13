@@ -1,5 +1,6 @@
 imports:
     - { resource: parameters.yml }
+    - { resource: "@ControlPanelBundle/Resources/config/services.yml" }
     - { resource: security.yml }
 
 framework:

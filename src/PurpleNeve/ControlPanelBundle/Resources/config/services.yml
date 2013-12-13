@@ -1,7 +1,7 @@
 parameters:
-#    control_panel.example.class: PurpleNeve\ControlPanelBundle\Example
+    webservice_user_provider.class: PurpleNeve\ControlPanelBundle\Security\User\WebserviceUserProvider
 
 services:
-#    control_panel.example:
-#        class: %control_panel.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    webservice_user_provider:
+        class: "%webservice_user_provider.class%"
+        arguments: ['@service_container']

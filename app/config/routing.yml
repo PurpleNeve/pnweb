@@ -1,6 +1,6 @@
 control_panel:
     resource: "@ControlPanelBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /cp/
 
 client_area:
     resource: "@ClientAreaBundle/Resources/config/routing.yml"

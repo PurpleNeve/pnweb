@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}MapleCore Control Panel{% endblock %}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet" media="screen">
+        <link href="{{ asset('bundles/controlpanel/css/global.css') }}" rel="stylesheet" media="screen">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans' rel='stylesheet' type='text/css'>    
+        {% block css %}{% endblock %}
+
+        <!-- HTML5 Shim and Respond.js add IE8 support of HTML5 elements and media queries -->
+        {% include 'BraincraftedBootstrapBundle::ie8-support.html.twig' %}
+
+        <script type="text/javascript" src="//code.jquery.com/jquery.js"></script>
+        <script type="text/javascript" src="{{ asset('/js/bootstrap.js') }}"></script>
+        {% block javascript %}{% endblock %}
+        <script type="text/javascript" src="{{asset('bundles/controlpanel/js/cp.js') }}"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header-logo">
+                <img src="{{ asset('bundles/controlpanel/images/head-image.png') }}" alt="MapleCore Control Panel" />
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body content-wrapper">
+                            <div class="navbar navbar-inverse primary-nav" role="navigation">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mc-navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse" id="mc-navbar-collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li class="active"><a href="/cp/dashboard/">Dashboard</a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accounts <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="/cp/account/manager/">Account Manager</a></li>
+                                                <li><a href="/cp/account/group/manager/">Group Manager</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="/cp/account/manager/">List Accounts</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="/cp/tools/event/">Event Manager</a></li>
+                                                <li><a href="/cp/tools/onsale/">OnSale Manager</a></li>
+                                                <li><a href="/cp/tools/trivia/">Trivia Manager</a></li>
+                                                <li><a href="/cp/tools/venue/">Venue Manager</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="dropdown user">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="http://cp.{{ domain }}/images/avatars/{{ app.user.avatar }}" alt="{{ app.user.firstName }}" /> {{ app.user.firstName }} {{ app.user.lastName }}<b class="caret"></b></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a id="myAccount" href="#"><i class="fa fa-user"></i> My Account</a></li>
+                                                <li><a href="/logout"><i class="fa fa-power-off"></i> Logout</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 content-body">
+                                    {% block body %}{% endblock %}                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dialog place holder -->
+        <div class="modal no-fade" id="dialogHolder" role="dialog"></div>
+    </body>
+</html>
