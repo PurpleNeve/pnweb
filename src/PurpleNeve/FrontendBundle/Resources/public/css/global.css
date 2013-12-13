@@ -38,7 +38,8 @@ hr {
 .nav > li > a, 
 .nav > li > a i, 
 .dropdown-menu > li > a, 
-.social-links a i, 
+.social-media > a,
+.social-media > a i, 
 .nav > li > a:hover, 
 .nav > li > a:focus {
     transition: all linear 0.25s;
