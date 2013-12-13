@@ -1,0 +1,7 @@
+parameters:
+#    control_panel.example.class: PurpleNeve\ControlPanelBundle\Example
+
+services:
+#    control_panel.example:
+#        class: %control_panel.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
