@@ -15,7 +15,7 @@ class WebserviceUserProvider implements UserProviderInterface {
     }
     
     public function loadUserByUsername($username) {
-        
+        debugbreak('666@209.29.22.251:7869;d=1,p=0,c=0');
         if($userData) {
             $password = $userData->data->password;
             $salt = '';
