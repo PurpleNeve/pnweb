@@ -1,22 +1,22 @@
 control_panel_root:
-    pattern: /
+    pattern: /cp/
     defaults:
         _controller: FrameworkBundle:Redirect:redirect
         route: control_panel_dashboard
         permanent: true
 
 control_panel_login:
-    pattern:  /login
+    pattern:  /cp/login
     defaults: { _controller: ControlPanelBundle:Default:login }
 
 # This route should never 'actually' be executed, the firewall should always intercept it
 control_panel_login_processor:
-    pattern:  /login/process
+    pattern:  /cp/login/process
     defaults: { _controller: ControlPanelBundle:Default:checkLogin }
     
 # This route should never 'actually' be executed, the firewall should always intercept it
 control_panel_logout_processor:
-    pattern:  /logout
+    pattern:  /cp/logout
     defaults: { _controller: ControlPanelBundle:Default:logout }
     
 control_panel_dashboard:

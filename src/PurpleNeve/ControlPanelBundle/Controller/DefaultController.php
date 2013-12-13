@@ -26,7 +26,7 @@ class DefaultController extends Controller {
         }
         
         $authForm = $this->get('form.factory')->createNamedBuilder(null, 'form', array())
-            ->setAction('/login/process')
+            ->setAction('/cp/login/process')
             ->setMethod('POST')
             ->add(
                 '_username',
