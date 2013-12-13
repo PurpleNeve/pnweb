@@ -69,11 +69,8 @@ address p.address i {
     overflow: hidden;
 }
 
-.social-media a i:hover {
-    background: #432354;
-}
-
 .social-media > a:hover i {
+    background: #432354;
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
