@@ -33,7 +33,7 @@ p.copyright img {
 }
 
 address p span {
-    color: #6c3f83;
+    color: #8d5aa8;
     display: inline-block;
     font: 14px/30px 'Roboto Slab', Arial, Helvetica, sans-serif;
     min-width: 110px;
@@ -46,7 +46,7 @@ address p.address i {
     height: 30px;
     background: #2d2d2d;
     line-height: 30px;
-    color: #6c3f83;
+    color: #8d5aa8;
     text-align: center;
     display: inline-block;
     float: left;
