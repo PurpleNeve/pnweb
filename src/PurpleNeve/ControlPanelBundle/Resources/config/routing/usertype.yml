@@ -1,0 +1,30 @@
+usertype:
+    pattern:  /
+    defaults: { _controller: "ControlPanelBundle:UserType:index" }
+
+usertype_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ControlPanelBundle:UserType:show" }
+
+usertype_new:
+    pattern:  /new
+    defaults: { _controller: "ControlPanelBundle:UserType:new" }
+
+usertype_create:
+    pattern:  /create
+    defaults: { _controller: "ControlPanelBundle:UserType:create" }
+    requirements: { _method: post }
+
+usertype_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ControlPanelBundle:UserType:edit" }
+
+usertype_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ControlPanelBundle:UserType:update" }
+    requirements: { _method: post|put }
+
+usertype_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ControlPanelBundle:UserType:delete" }
+    requirements: { _method: post|delete }

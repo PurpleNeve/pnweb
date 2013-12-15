@@ -1,0 +1,30 @@
+user:
+    pattern:  /
+    defaults: { _controller: "ControlPanelBundle:User:index" }
+
+user_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ControlPanelBundle:User:show" }
+
+user_new:
+    pattern:  /new
+    defaults: { _controller: "ControlPanelBundle:User:new" }
+
+user_create:
+    pattern:  /create
+    defaults: { _controller: "ControlPanelBundle:User:create" }
+    requirements: { _method: post }
+
+user_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ControlPanelBundle:User:edit" }
+
+user_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ControlPanelBundle:User:update" }
+    requirements: { _method: post|put }
+
+user_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ControlPanelBundle:User:delete" }
+    requirements: { _method: post|delete }
