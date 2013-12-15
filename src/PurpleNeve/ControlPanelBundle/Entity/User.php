@@ -3,6 +3,9 @@
 namespace PurpleNeve\ControlPanelBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use JMS\Serializer\Annotation as JSM;
+use JMS\Serializer\Annotation\Groups as Groups;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * User
