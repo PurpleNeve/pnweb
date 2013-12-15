@@ -18,6 +18,7 @@ class UserType
     /**
      * @var integer
      *
+     * @Groups({"user","users"})   
      * @ORM\Column(name="id", type="integer", nullable=false)
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="IDENTITY")
@@ -26,6 +27,7 @@ class UserType
 
     /**
      * @var string
+     * 
      * @Groups({"user","users"})
      * @ORM\Column(name="name", type="string", length=45, nullable=false)
      */

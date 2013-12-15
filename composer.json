@@ -33,6 +33,7 @@
 		"sensio/framework-extra-bundle" : "3.0.*",
 		"sensio/distribution-bundle" : "2.3.*",
 		"doctrine/doctrine-bundle" : "1.2.*",
+        "jms/serializer-bundle": "0.12.*@dev",
         "braincrafted/bootstrap-bundle": "~2.0@alpha",
         "twbs/bootstrap": "3.0.*",
         "jquery/jquery": "1.10.*"
