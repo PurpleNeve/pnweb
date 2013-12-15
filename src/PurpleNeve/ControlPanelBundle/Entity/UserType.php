@@ -3,6 +3,9 @@
 namespace PurpleNeve\ControlPanelBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use JMS\Serializer\Annotation as JSM;
+use JMS\Serializer\Annotation\Groups as Groups;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * UserType
@@ -23,7 +26,7 @@ class UserType
 
     /**
      * @var string
-     *
+     * @Groups({"user","users"})
      * @ORM\Column(name="name", type="string", length=45, nullable=false)
      */
     private $name;
@@ -61,5 +64,13 @@ class UserType
     public function getName()
     {
         return $this->name;
+    }
+
+    /**
+     * Convert id to String
+     * @return string
+     */
+    public function __toString() {
+        return (string) $this->id;
     }
 }

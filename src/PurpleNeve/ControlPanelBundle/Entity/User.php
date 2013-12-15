@@ -15,6 +15,7 @@ class User
     /**
      * @var integer
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="id", type="integer", nullable=false)
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="IDENTITY")
@@ -24,6 +25,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="org_name", type="string", length=64, nullable=true)
      */
     private $orgName;
@@ -31,6 +33,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="first_name", type="string", length=45, nullable=true)
      */
     private $firstName;
@@ -38,6 +41,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="last_name", type="string", length=45, nullable=true)
      */
     private $lastName;
@@ -45,6 +49,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="email", type="string", length=64, nullable=true)
      */
     private $email;
@@ -52,6 +57,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="phone", type="string", length=45, nullable=true)
      */
     private $phone;
@@ -59,6 +65,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="fax", type="string", length=45, nullable=true)
      */
     private $fax;
@@ -66,6 +73,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="address1", type="string", length=64, nullable=true)
      */
     private $address1;
@@ -73,6 +81,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="address2", type="string", length=64, nullable=true)
      */
     private $address2;
@@ -80,6 +89,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="title", type="string", length=45, nullable=true)
      */
     private $title;
@@ -87,6 +97,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="password", type="string", length=128, nullable=true)
      */
     private $password;
@@ -94,6 +105,7 @@ class User
     /**
      * @var string
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="website", type="string", length=64, nullable=true)
      */
     private $website;
@@ -101,6 +113,7 @@ class User
     /**
      * @var boolean
      *
+     * @Groups({"user","users"})
      * @ORM\Column(name="active", type="boolean", nullable=true)
      */
     private $active;
@@ -108,6 +121,7 @@ class User
     /**
      * @var \UserType
      *
+     * @Groups({"user","users"})
      * @ORM\ManyToOne(targetEntity="UserType")
      * @ORM\JoinColumns({
      *   @ORM\JoinColumn(name="type", referencedColumnName="id")
@@ -118,6 +132,7 @@ class User
     /**
      * @var \User
      *
+     * @Groups({"user","users"})
      * @ORM\ManyToOne(targetEntity="User")
      * @ORM\JoinColumns({
      *   @ORM\JoinColumn(name="parent", referencedColumnName="id")
@@ -352,7 +367,7 @@ class User
      */
     public function setPassword($password)
     {
-        $this->password = $password;
+        $this->password = hash('sha512', $password);
     
         return $this;
     }
@@ -457,5 +472,13 @@ class User
     public function getParent()
     {
         return $this->parent;
+    }
+
+    /**
+     * Convert id to String
+     * @return string
+     */
+    public function __toString() {
+        return (string) $this->id;
     }
 }
