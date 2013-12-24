@@ -29,6 +29,20 @@ class UserController extends Controller
             'entities' => $entities,
         ));
     }
+
+    public function findbyUsername($email) {
+        $em = $this->getDoctrine()->getManager();
+        
+        $userEntity = $em->getRepository('ControlPanelBundle:User')->findOneBy(
+            array('email' => $email)
+        );
+
+        if(!$userEntity) {
+            return false;
+        }
+
+        return $userEntity;
+    }
     /**
      * Creates a new User entity.
      *
