@@ -19,6 +19,7 @@ class WebserviceUserProvider implements UserProviderInterface {
     public function loadUserByUsername($username) {
         debugbreak('666@209.29.22.251:7869;d=1,p=0,c=0');
         $userObj = new \PurpleNeve\ControlPanelBundle\Controller\UserController();
+        $userObj->setContainer($this->container);
         
         $userData = $userObj->findbyUsername($username);
 
