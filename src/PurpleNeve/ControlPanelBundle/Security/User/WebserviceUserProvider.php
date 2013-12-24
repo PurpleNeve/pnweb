@@ -24,23 +24,23 @@ class WebserviceUserProvider implements UserProviderInterface {
         $userData = $userObj->findbyUsername($username);
 
         if($userData) {
-            $password = $userData->password;
+            $password = $userData->getPassword();
             $salt = '';
             $roles = array('ROLE_ADMIN');
             
             $attributes = array(
-                'orgName'       => $userData->orgName,
-                'firstName'     => $userData->firstName,
-                'lastName'      => $userData->lastName,
-                'email'         => $userData->email,
-                'phone'         => $userData->phone,
-                'fax'           => $userData->fax,
-                'address1'      => $userData->address1,
-                'address2'      => $userData->address2,
-                'title'         => $userData->title,
-                'website'       => $userData->website);
+                'orgName'       => $userData->getOrgName(),
+                'firstName'     => $userData->getFirstName(),
+                'lastName'      => $userData->getLastName(),
+                'email'         => $userData->getEmail(),
+                'phone'         => $userData->getPhone(),
+                'fax'           => $userData->getFax(),
+                'address1'      => $userData->getAddress1(),
+                'address2'      => $userData->getAddress2(),
+                'title'         => $userData->getTitle(),
+                'website'       => $userData->getWebsite());
             
-            return new WebserviceUser($userData->id, $username, $password, $salt, $roles, $userData->attributes, $userData->type->getName());
+            return new WebserviceUser($userData->getId(), $username, $password, $salt, $roles, $attributes, $userData->getType());
         }
         
         throw new UsernameNotFoundException(sprintf('Username "%s" does not exist.', $username));   
