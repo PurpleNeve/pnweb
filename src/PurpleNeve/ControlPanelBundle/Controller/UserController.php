@@ -4,6 +4,7 @@ namespace PurpleNeve\ControlPanelBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 
 use PurpleNeve\ControlPanelBundle\Entity\User;
 use PurpleNeve\ControlPanelBundle\Form\UserType;
