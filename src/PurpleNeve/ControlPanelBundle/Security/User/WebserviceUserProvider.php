@@ -7,6 +7,8 @@ use Symfony\Component\DependencyInjection\ContainerInterface as Container;
 use Symfony\Component\Security\Core\Exception\UsernameNotFoundException;
 use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
 
+use PurpleNeve\ControlPanelBundle\Controller\UserController;
+
 class WebserviceUserProvider implements UserProviderInterface {
     private $container;
     
@@ -15,7 +17,7 @@ class WebserviceUserProvider implements UserProviderInterface {
     }
     
     public function loadUserByUsername($username) {
-        debugbreak('666@209.29.22.251:7869;d=1,p=0,c=0');
+        //debugbreak('666@209.29.22.251:7869;d=1,p=0,c=0');
         if($userData) {
             $password = $userData->data->password;
             $salt = '';
