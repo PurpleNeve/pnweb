@@ -39,7 +39,8 @@ img {
 }
 
 .cpHome {
-    height: 17px;
+    height: auto;
+    width: 180px;
 }
 
 .pn-nav {
