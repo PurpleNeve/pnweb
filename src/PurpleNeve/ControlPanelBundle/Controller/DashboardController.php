@@ -11,6 +11,8 @@ class DashboardController extends Controller {
     * @param none
     */
     public function dashboardAction() {
+        $userObj = $this->getUser();
+        debugbreak('666@209.29.22.251:7869;d=1,p=0,c=0');
         return $this->render('ControlPanelBundle:Dashboard:dashboard.html.twig');
     }
 }
