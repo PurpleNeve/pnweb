@@ -45,3 +45,7 @@ img {
 .pn-nav {
     background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
 }
+
+.container {
+    width: 100%;
+}
