@@ -1,0 +1,39 @@
+html,body {
+    height: 100%;
+}
+
+body {
+    background: none repeat scroll 0 0 #fff;
+    border: 0 none;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+
+*,*:before,*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/**
+* Add responsiveness to images
+*/
+img {
+    width: inherit;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+}
+
+/**
+* Masthead logo styles
+*/
+.header-logo {
+    margin: 15px auto;
+    text-align: center;
+}
