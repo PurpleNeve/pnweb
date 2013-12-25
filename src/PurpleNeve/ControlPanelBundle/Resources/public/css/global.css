@@ -37,3 +37,11 @@ img {
     margin: 15px auto;
     text-align: center;
 }
+
+.cpHome {
+    height: 17px;
+}
+
+.pn-nav {
+    background: url('/bundles/frontend/images/black-bg.jpg') repeat center;
+}
